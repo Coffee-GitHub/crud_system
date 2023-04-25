@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   outline: none;
+   text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+div.welcome {
+    width: 100%;
+    margin: 0;
+    padding: 0 0 5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 > span {
+    text-transform: capitalize;
+    color: red;
+}
+
+.content {
+    margin: auto;
+    padding: 0;
+    width: fit-content;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    padding: 0;
+}
+
+table tr {
+    border-collapse: collapse;
+    border-bottom: 1px solid #000;
+    text-align: left;
+}
+
+th,
+td {
+    margin: 0;
+    padding: 0.5rem 1.5rem;
+}
+
+th{
+    text-transform: uppercase;
+}
+
+td:nth-child(2) {
+    text-transform: capitalize;
+}
+
+div.add-btn {
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logout-btn {
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.login {
+    margin: auto;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    border: 1px solid #000;
+}
+
+.login-logo {
+    width: 100%;
+    margin: 0;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-logo > img {
+    width: 150px;
+}
+
+.login-btn {
+    width: 100%;
+    margin: 0;
+    padding: 0.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
