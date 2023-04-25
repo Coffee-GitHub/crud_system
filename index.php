@@ -1,3 +1,6 @@
+<?php
+    include 'auth/login.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +17,13 @@
         <img src="assets/logo/logo.jpg" alt="">login
     </div>
     <form method="POST" action="">
-       
+        <?php
+            if(isset($error)){
+                foreach($error as $error){
+                    echo '<span class="error-msg">'.$error.'</span><br>';
+                };
+            };
+        ?>
         <input type="email" name="email" placeholder="Enter your email adress">
 		<br>
         <input type="password" name="password" placeholder="Enter your password">
